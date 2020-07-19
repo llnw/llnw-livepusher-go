@@ -1,0 +1,35 @@
+{
+  "FFmpeg": "ffmpeg",
+  "Shortname": "SHORTNAME",
+  "Username": "USERNAME",
+  "SlotName": "SLOTNAME",
+  "Subdir": "stream",
+  "Password": "PASSWORD",
+  "PrimaryHost": "SHORTNAME-SLOTNAME-pri.live-push.llnw.net",
+  "SourceFile": "SOURCEFILE.EXT",
+  "VideoCode": "h264",
+  "VideoFramerate": 30,
+  "GOPSize": 30,
+  "SegmentSize": 2,
+  "AudioCodec": "aac",
+  "CRF": 30,
+  "FFmpegLogLevel": "info",
+  "Renditions": [
+ {
+      "Name": "480",
+      "Height": 480,
+      "Width": 842,
+      "VideoBitrate": 1400000,
+      "VideoProfile": "main",
+      "AudioBitrate": 128000,
+      "AudioSampleRate": 48000
+  },{
+      "Name": "360",
+      "Height": 360,
+      "Width": 640,
+      "VideoBitrate": 800000,
+      "VideoProfile": "main",
+      "AudioBitrate": 96000,
+      "AudioSampleRate": 48000
+  }]
+}
